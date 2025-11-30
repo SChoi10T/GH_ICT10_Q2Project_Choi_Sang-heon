@@ -32,23 +32,23 @@ def calculate_gwa(e):
 # School Club Information
 club_data = {
     "Glee Club":{
-        "Description":"The singing club of OBMC.",
+        "Description":"The singing club of DPU.",
         "Meeting Time":"Every Monday and Thursday 3:00-4:30 PM",
-        "Location":"HS Music Room",
+        "Location":"DPU Music & Arts Room",
         "Club Moderator":"Mary Margery Loyola",
         "Number of Members":"38"
     },
     "Commarts Club":{
-        "Description":"The communication and writing club of OBMC.",
+        "Description":"The communication and writing club of DPU.",
         "Meeting Time":"Every Tuesday and Wednesday 3:00-4:30 PM",
-        "Location":"HS Communication Room",
+        "Location":"DPU Communications Room",
         "Club Moderator":"Roman Gerard Loreto",
         "Number of Members":"24"
     },
     "Dance Club":{
-        "Description":"The dancing club of OBMC.",
+        "Description":"The dancing club of DPU.",
         "Meeting Time":"Every Thursday and Friday 3:00-4:30 PM",
-        "Location":"HS Dance Room",
+        "Location":"DPU Gymnasium Room",
         "Club Moderator":"Akihiro Marutani",
         "Number of Members":"28"
     }
