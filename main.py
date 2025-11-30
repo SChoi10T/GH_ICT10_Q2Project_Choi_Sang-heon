@@ -10,14 +10,14 @@ def calculate_gwa(e):
     surname = document.getElementById("lname").value.strip()
 
     # Subjects
-    fil = int(document.getElementById('filipino').value)
-    eng = int(document.getElementById('english').value)
+    lang = int(document.getElementById('language').value)
+    write = int(document.getElementById('writing').value)
     math = int(document.getElementById('mathematics').value)
-    sci = int(document.getElementById('science').value)
-    ss = int(document.getElementById('ss').value)
-    ict = int(document.getElementById('ict').value)
+    sci = int(document.getElementById('sciences').value)
+    ss = int(document.getElementById('socialstudies').value)
+    tech = int(document.getElementById('technology').value)
 
-    grades = [fil, eng, math, sci, ss, ict] # List of subjects
+    grades = [lang, write, math, sci, ss, tech] # List of subjects
     units = (3, 5 , 5, 4, 3, 1) # Units of each subject
 
     # Calculating the GWA
