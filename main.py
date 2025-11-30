@@ -1,6 +1,6 @@
-# Grade Calculator
 from pyscript import display, document # pyright: ignore[reportMissingImports]
 
+# Grade Calculator
 def calculate_gwa(e):
     document.getElementById('profile_info').innerHTML = ""  # Clear Output
     document.getElementById('gwa_result').innerHTML = ""    # Clear Output
@@ -29,7 +29,7 @@ def calculate_gwa(e):
     display(f"Name: {first_name} {surname}", target="profile_info")
     display(f"Your General Weighted Average is: {gwa}", target = 'gwa_result')
 
-# School Club Information
+# School Clubs
 club_data = {
     "Glee Club":{
         "Description":"The singing club of DPU.",
@@ -54,6 +54,7 @@ club_data = {
     }
 }
 
+# School Club Information
 def club_information(e):
     document.getElementById("club_name").innerHTML = "" # Clear Output
     document.getElementById("information").innerHTML = ""   # Clear Output
@@ -75,4 +76,5 @@ def club_information(e):
     display(f"Meeting Time: {subject_data['Meeting Time']}", target="information")
     display(f"Location: {subject_data['Location']}", target="information")
     display(f"Club Moderator: {subject_data['Club Moderator']}", target="information")
+
     display(f"Number of Members: {subject_data['Number of Members']}", target="information")
